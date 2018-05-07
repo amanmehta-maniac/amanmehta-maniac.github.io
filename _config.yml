@@ -100,7 +100,7 @@ analytics:
 author:
   name             : "Aman"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "DBpedia GSoC'18\nA Neural QA model"
+  bio              : "DBpedia GSoC'18 - A Neural QA model for DBpedia"
   location         : "Hyderabad, India"
   email            : "amanmehta1997@gmail.com"
   uri              :
