@@ -2,10 +2,6 @@
 title: "Hello World! :)"
 header:
   image: /assets/images/gsoc.png
-tags: 
-  - sample post
-  - readability
-  - test
 ---
 
 Hola! Greetings for the day. I welcome you to my first blog post about my journey about GSoC 2018. The memory of me refreshing the gsoc page endlessly and searching for my name, still shivers me. It was a very special feeling to see my name along with my project title popping up on the gsoc official website. Thanks to my mentors Tommaso Soru and Ricardo Usbeck who helped me out in my proposal.
