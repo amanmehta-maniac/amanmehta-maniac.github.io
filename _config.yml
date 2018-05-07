@@ -99,7 +99,7 @@ analytics:
 # Site Author
 author:
   name             : "Aman Mehta"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile_pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "DBpedia GSoC'18 - A Neural QA model for DBpedia"
   location         : "Hyderabad, India"
   email            : "amanmehta1997@gmail.com"
