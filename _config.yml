@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Google Summer of Code Journey"
+title                    : "Aman's GSoC Journey"
 title_separator          : "-"
 name                     : "Aman Mehta"
 description              : "DBpedia GSoC'18 - A Neural QA model"
@@ -25,7 +25,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/dbpedia/neural-qa/tree/gsoc-aman" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 85
+words_per_minute         : 50
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
