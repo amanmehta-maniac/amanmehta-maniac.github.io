@@ -1,6 +1,11 @@
 ---
-layout: post
-title: Hello World
+title: "Hello World!"
+header:
+  image: /assets/images/unsplash-image-4.jpg
+tags: 
+  - sample post
+  - readability
+  - test
 ---
 
 Hi, This is my first blog post, many more will follow. Here I will post about the progress of my project along with some 
