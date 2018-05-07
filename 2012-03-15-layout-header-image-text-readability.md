@@ -1,5 +1,5 @@
 ---
-title: "Layout: Header Image and Text Readability"
+title: "Hello world! :)"
 header:
   image: /assets/images/unsplash-image-4.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"

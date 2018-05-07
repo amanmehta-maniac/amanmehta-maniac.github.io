@@ -8,7 +8,12 @@ tags:
   - test
 ---
 
-This is a sample post with a large feature image[^1] up top and tons of text. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
+Hola! Greetings for the day. I welcome you to my first blog post about my journey about GSoC 2018. The memory of me refreshing the gsoc page endlessly and searching for my name, still shivers me. It was a very special feeling to see my name along with my project title popping up on the gsoc official website. Thanks to my mentors Tommaso Soru and Ricardo Usbeck who helped me out in my proposal.
+
+Here, I will (try to) give weekly updates about the status of my projects and the deliverables that I achieved within the duration of each week. Although this is necessity from DBpedia's code of conduct, I really enjoy writing. Frankly, I have been writing only personal blogs until just now. This is my first attempt to writing a public blog, and I am excited about it. Please feel free to drop your suggestions in the comment section or in an email. 
+
+I am Aman, a code enthusiast from International Institute of Information Technology, Hyderabad. 
+<!-- This is a sample post with a large feature image[^1] up top and tons of text. Odio ad blue bottle vinyl, 90's narwhal commodo bitters pour-over nostrud. Ugh est hashtag in, fingerstache adipisicing laboris esse Pinterest shabby chic Portland. Shoreditch bicycle rights anim, flexitarian laboris put a bird on it vinyl cupidatat narwhal. Hashtag artisan skateboard, flannel Bushwick nesciunt salvia aute fixie do plaid post-ironic dolor McSweeney's. Cliche pour-over chambray nulla four loko skateboard sapiente hashtag.
 
 Vero laborum commodo occupy. Semiotics voluptate mumblecore pug. Cosby sweater ullamco quinoa ennui assumenda, sapiente occupy delectus lo-fi. *Ea fashion axe [Marfa cillum aliquip](#). Retro Bushwick keytar cliche.* Before they sold out sustainable gastropub Marfa readymade, ethical Williamsburg skateboard brunch qui consectetur gentrify semiotics. Mustache cillum irony, fingerstache magna pour-over keffiyeh tousled selfies.
 
@@ -46,3 +51,4 @@ Occupy et selvage squid, pug brunch blog nesciunt hashtag mumblecore skateboard 
 Aliquip enim artisan dolor post-ironic. Pug tote bag Marfa, deserunt pour-over Portland wolf eu odio intelligentsia american apparel ugh ea. Sunt viral et, 3 wolf moon gastropub pug id. Id fashion axe est typewriter, mlkshk Portland art party aute brunch. Sint pork belly Cosby sweater, deep v mumblecore kitsch american apparel. Try-hard direct trade tumblr sint skateboard. Adipisicing bitters excepteur biodiesel, pickled gastropub aute veniam.
 
 [^1]: Texture image courtesty of [Lovetextures](http://www.lovetextures.com/)
+ -->
