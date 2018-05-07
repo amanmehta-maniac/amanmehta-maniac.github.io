@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "My Google Summer of Code Journey"
 title_separator          : "-"
 name                     : "Aman Mehta"
-description              : "DBpedia GSoC'18\nA Neural QA model"
+description              : "DBpedia GSoC'18 - A Neural QA model"
 url                      : "https://amanmehta-maniac.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/dbpedia/neural-qa/tree/gsoc-aman" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -98,7 +98,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aman"
+  name             : "Aman Mehta"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "DBpedia GSoC'18 - A Neural QA model for DBpedia"
   location         : "Hyderabad, India"
