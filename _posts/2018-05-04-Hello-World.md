@@ -10,4 +10,7 @@ Hola! Greetings for the day. I am Aman, a 3rd year code enthusiast from Internat
 
 Here, I will (try to) give weekly updates about the status of my projects and the deliverables that I achieved within the duration of each week. Although this is necessity from DBpedia's code of conduct, I really enjoy writing. Frankly, I have been writing only personal blogs until just now. This is my first attempt to writing a public blog, and I am excited about it. Please feel free to drop your suggestions in the comment section or in an email. 
 
+I prefer to take a always make sure that me and my mentors are at the same page with every deliverable. I do this my maintaining a shared document of deliverables for each upcoming week, so that there is no waste of anybody's time and effort due to misunderstanding. :)
+
+
 You can find my proposal [here](https://drive.google.com/open?id=1c41xgYnwj3m8fNUomo4jVbdCQ-t6rooj).
