@@ -100,13 +100,13 @@ analytics:
 author:
   name             : "Aman Mehta"
   avatar           : "/assets/images/profile_pic.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "DBpedia GSoC'18 - A Neural QA model for DBpedia"
+  bio              : "GSoC'18 - A Neural QA model for DBpedia"
   location         : "Hyderabad, India"
   email            : "amanmehta1997@gmail.com"
-  uri              :
+  uri              : "https://github.com/dbpedia/neural-qa/tree/gsoc-aman"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
-  codepen          :
+  codepen          : 
   dribbble         :
   flickr           :
   facebook         :
