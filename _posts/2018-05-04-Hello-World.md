@@ -12,5 +12,5 @@ Here, I will (try to) give weekly updates about the status of my projects and th
 
 I always make sure that me and my mentors are at the same page with every deliverable. I do this my maintaining a shared document of deliverables for each upcoming week, so that there is no waste of anybody's time and effort due to misunderstanding. :)
 
-
+You can find my project [here](https://github.com/dbpedia/neural-qa/tree/gsoc-aman).
 You can find my proposal [here](https://drive.google.com/open?id=1c41xgYnwj3m8fNUomo4jVbdCQ-t6rooj).
