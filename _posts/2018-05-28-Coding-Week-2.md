@@ -10,7 +10,9 @@ After completing metadata extraction for a subset of properties, next step is to
 
 but got strange results. 
 
-So, we decided to switch from SPARQL to 
+So, we decided to switch from SPARQL to http://mappings.dbpedia.org/. This web page has properties majorly from ontology namespace which are correct (with more confidence). 
+
+The next step, hence became to systematically web-scrape the web page and store it.  I began with web-scraping during the end of the week.
 
 
 
