@@ -12,7 +12,7 @@ After capturing the metadata information of Place properties, we shifted back to
 
 So, during the first week of the period, I completed the query templates manually for ~150 properties and shared with my mentor for feedback. And I was able to design a simple hueristics which could generate query for ~85% of properties with confidence score >=0.5 (this was a fuzzy score manually given by me again). The template generation for the remaining set, seemed trickier and hence I could not formulate a heuristic for this set. Also, there were couple of shortcomings:
 
-1. For many of the properties, there were more than a single unique way in which an NLQ could be generated. This gave rise to the idea of having two expressions for a single property - a) Most Viable Expression (MVE) b) Optimal Expression
+1. For many of the properties, there were more than a single unique way in which an NLQ could be generated. This gave rise to the idea of having two expressions for a single property - a) Minimum Viable Expression (MVE) b) Optimal Expression
 2. Since the entire annotation was done manually, there were cases where another NLQ *better* than the one I had mentioned existed. This gave rise to the possibility of having more than one verbal form for a given properties' query, and it became trickier to choose one out of the candidates. Due to this issue I proposed to take help from existing language tools/models which can help us predict the next word of a sequence and help us discriminate which query suits better among the candidates.
 
 So, I shared these ideas with my mentors and we decided to spend the next week to develop two expressions for the manual annotation and try out existing language tools for the issue of verbal forms.

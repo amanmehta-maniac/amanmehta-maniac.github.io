@@ -103,13 +103,13 @@ author:
   bio              : "GSoC'18 - A Neural QA model for DBpedia"
   location         : "Hyderabad, India"
   email            : "amanmehta1997@gmail.com"
-  code              : "https://github.com/dbpedia/neural-qa/tree/gsoc-aman"
+  uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          : 
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "amanmehta1997"
   foursquare       :
   github           : "amanmehta-maniac"
   gitlab           :
