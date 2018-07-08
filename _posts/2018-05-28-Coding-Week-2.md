@@ -1,6 +1,6 @@
 ---
 
-title: "Coding Period 1 (May 21st - May 27th)"
+title: "Coding Period 2 (May 21st - May 27th)"
 comments: true
 read_time: true
 
