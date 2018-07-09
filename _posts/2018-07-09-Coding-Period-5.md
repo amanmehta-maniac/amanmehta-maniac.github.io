@@ -1,6 +1,6 @@
 ---
 
-title: "Coding Period 5 (26th June - 13th June)"
+title: "Coding Period 5 (26th June - 13th July)"
 comments: true
 read_time: true
 
