@@ -6,7 +6,7 @@ read_time: true
 
 ---
 
-During the initial stages of this duration, I completed final formatting steps to get the templates ready. In a few days, the training templates were ready to generate dataset! I began with generation of the dataset and finished it in a day, there were a couple of proxy issues which caught up my entire day [:|]. There is a hyper-parameter to create a dataset: EXAMPLES_PER_TEMPLATE (let's call it *ex* for ease), which as the name suggests, uses SPARQL endpoint to get that many number of <S,P,O> pairs in the dataset. For starters, (just to check if the data-generation process is flawless) I took *ex* = 1.
+During the initial stages of this duration, I completed final formatting steps to get the templates ready. In a few days, the training templates were ready to generate dataset! I began with generation of the dataset and finished it in a day, there were a couple of proxy issues which caught up my entire day :|. There is a hyper-parameter to create a dataset: EXAMPLES_PER_TEMPLATE (let's call it *ex* for ease), which as the name suggests, uses SPARQL endpoint to get that many number of <S,P,O> pairs in the dataset. For starters, (just to check if the data-generation process is flawless) I took *ex* = 1.
 
 The data-preparation took around 8mins to complete. And as I had guessed, there were a few bugs in the preparation step, which I fixed and now we were ready to prepare the dataset for larger values of *ex* say, 300 or 600. The size of dataset with *ex* = 300 and *ex* = 600 were around 44k and 77k which looked alright and we are now ready to train!
 
