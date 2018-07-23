@@ -13,6 +13,7 @@ The data-preparation took around 8mins to complete. And as I had guessed, there 
 The next step is to start training our model using the generated dataset and evaluate the model. This step involves large computations and takes way too longer to finish on CPUs. We had already talked out with Ricardo sir, who were going to provide me access to *Oculus* (one of University of Paderborn's server). But to use it remotely, I had to set-up a VPN connection to connect to their local college network. Even after a lot of disscussions with the servers guys at UPB and a lot of self-reading online, I wasn't able to successfully connect to their local college network remotely. The two major reasons of not-able-to-connect (IMO) are:
 1. Auth-type = Certificates (TLS): I require network-certificates and a personal key (certified at UPB servers) to be able to connect to their servers, which I haven't yet been provided.
 2. Auth-type = username-password: I was told that my login credentials to IMT server portal will indeed allow me to connect to their network, but the authorisation failed. 
+
 This trying went on for around a week. I then decided to take help from one of my friend's server to run the training model. 
 
 
