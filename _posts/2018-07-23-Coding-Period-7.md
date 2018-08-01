@@ -6,10 +6,7 @@ comments: true
 read_time: true
 ---
 
-<figure>
-    <img src="/assets/images/BLEU.png"></a>
-    <figcaption>Caption describing these two images.</figcaption>
-</figure>
+
 
 In continuation with the problems with the version-1 of our model (which was getting 11% BLEU accuracy), I discussed the output with mentors. After a day or two of error analysis, we realised that there were few trivial problems with our dataset, due to which our BLEU score was so low:
 
@@ -19,6 +16,11 @@ In continuation with the problems with the version-1 of our model (which was get
 There were a few minor problems: such as some NLQs just did not made sense were noisy - for which we can keep a threshold frequency, but we chose to not do it right now.
 
 After solving the above two troubles, we were good to prepare data and train the version-2 of our model. We both were hoping we get far better than mere 11%, because we guessed that "1" should be the major problem.
+
+<figure>
+    <img src="/assets/images/BLEU.png">
+    <figcaption>Version-2 of our model</figcaption>
+</figure>
 
 After again a wait of 9 hours, we got ~80% BLUE accuracy for our model and this marked the correctness of this project :)..
 
