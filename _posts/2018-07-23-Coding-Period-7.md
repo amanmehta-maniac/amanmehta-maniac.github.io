@@ -4,6 +4,10 @@ header:
 title: "Coding Period 7 (24th July - 6th Aug)"
 comments: true
 read_time: true
+tags:
+	- sample post
+	- images
+	- test
 
 ---
 
