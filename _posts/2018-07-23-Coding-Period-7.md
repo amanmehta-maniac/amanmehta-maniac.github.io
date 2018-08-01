@@ -10,6 +10,11 @@ tags:
 	- test
 
 ---
+<figure class="half">
+    <a href="https://drive.google.com/file/d/12mt-qnUyewvp6NaKLkHsQMC_pT9dQB9C/view?usp=sharing
+   ""><img src="/assets/images/BLEU.png"></a>
+    <figcaption>Caption describing these two images.</figcaption>
+</figure>
 
 In continuation with the problems with the version-1 of our model (which was getting 11% BLEU accuracy), I discussed the output with mentors. After a day or two of error analysis, we realised that there were few trivial problems with our dataset, due to which our BLEU score was so low:
 
