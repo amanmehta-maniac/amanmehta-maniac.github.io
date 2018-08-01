@@ -4,13 +4,9 @@ header:
 title: "Coding Period 7 (24th July - 6th Aug)"
 comments: true
 read_time: true
-tags:
-	- sample post
-	- images
-	- test
 
 ---
-<figure class="half">
+<figure class="full">
     <a href="https://drive.google.com/file/d/12mt-qnUyewvp6NaKLkHsQMC_pT9dQB9C/view?usp=sharing"><img src="/assets/images/BLEU.png"></a>
     <figcaption>Caption describing these two images.</figcaption>
 </figure>
