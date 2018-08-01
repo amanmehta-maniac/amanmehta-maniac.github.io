@@ -1,7 +1,6 @@
 ---
 header:
   teaser: /assets/images/BLEU.png
-  og_image: /assets/images/BLEU.png
 title: "Coding Period 7 (24th July - 6th Aug)"
 comments: true
 read_time: true
