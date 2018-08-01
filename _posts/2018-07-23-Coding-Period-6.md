@@ -17,4 +17,4 @@ The next step is to start training our model using the generated dataset and eva
 This trying went on for around a week. I then decided to take help from one of my friend's server to run the training model. 
 
 Version one of training began: with parameters: *ex = 600* and *#epoch = 120k*
-It took around 
+It took around 9 hours on my friend's server to finish the training. The results were bad. I got a BLEU accuracy of 11.1% and I was concerned. I was sure there was something trivial which I'm missing. 
