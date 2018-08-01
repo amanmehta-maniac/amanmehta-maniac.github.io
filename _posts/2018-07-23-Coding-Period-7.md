@@ -1,12 +1,14 @@
 ---
+header:
+  teaser: https://drive.google.com/file/d/12mt-qnUyewvp6NaKLkHsQMC_pT9dQB9C/view?usp=sharing
 title: "Coding Period 7 (24th July - 6th Aug)"
 comments: true
 read_time: true
 ---
 
 <figure>
-    <a href="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_b.jpg"><img src="http://farm9.staticflickr.com/8426/7758832526_cc8f681e48_c.jpg" /></a>
-	<figcaption><a href="http://www.flickr.com/photos/80901381@N04/7758832526/" title="Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr">Morning Fog Emerging From Trees by A Guy Taking Pictures, on Flickr</a>.</figcaption>
+    <img src="/assets/images/BLEU.png"></a>
+    <figcaption>Caption describing these two images.</figcaption>
 </figure>
 
 In continuation with the problems with the version-1 of our model (which was getting 11% BLEU accuracy), I discussed the output with mentors. After a day or two of error analysis, we realised that there were few trivial problems with our dataset, due to which our BLEU score was so low:
