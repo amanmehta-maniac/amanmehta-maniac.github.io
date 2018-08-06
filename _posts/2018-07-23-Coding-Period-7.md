@@ -22,6 +22,17 @@ After solving the above two troubles, we were good to prepare data and train the
     <figcaption>Version-2 of our model</figcaption>
 </figure>
 
-After again a wait of 9 hours, we got ~80% BLUE accuracy for our model and this marked the correctness of this project :)..
+After again a wait of 9 hours, we got ~80% BLUE accuracy for our model and this marked the correctness and completeness of the project. 
+Training Setup and Graph Analysis:
+1. We generated a dataset with 44k examples of NLQ-SPARQL, and distributed our data as 8:1:1 (train:dev:test).
+2. As the graph shows, we reach ~75% accuracy in just 40k epochs and the model convergence to 80% in the remaining 80k epochs. 
+3. [BLEU](https://en.wikipedia.org/wiki/BLEU) score signifies the quality of our translation. It compares our model's target language translation with the expected SPARQL for the NLQ. 80% values means that our translation's quality is 0.8 times the quality of an SPARQL expert.
+4. The test accuracy as the name suggests that around 60% of our NLQ queries exactly match with the required target SPARQL translation.
+
+Error Analysis:
+1. 
+
+
+
 
 
