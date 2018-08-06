@@ -35,7 +35,7 @@ Error Analysis:
 
 This marks the end of a end-to-end system which generates dataset automatically for [NSpM](https://github.com/AKSW/NSpM) learner.
 
-#### Compositionality Experiment:
+### Compositionality Experiment:
 
 With nearly two and a half week until the final deadline of GSoC tenure, we decided to try a ML experiment to test whether a machine learning model can learn compositionality. Precisely, the goal of this experiment is as follows:
 The goal is to train a model on data {'a1', …, 'an', 'b', 'a1○b', …, 'an○b', 'c','d'} and test on data {'c○d'}.
@@ -43,7 +43,7 @@ The idea is to check whether the Neural MT model can learn how to translate comp
 
 For starters, me and my mentors mutually decided to perform our experiment on a simpler setting, where 'd' is equal to 'b'.
 
-##### Setting 1: 
+#### Setting 1: 
 
 Train a model on data {'a1', …, 'an', 'b', 'a1○b', …, 'an○b', 'c'} and test on data {'c○b'}.
 For eg:
