@@ -30,9 +30,13 @@ Training Setup and Graph Analysis:
 4. The test accuracy as the name suggests that around 60% of our NLQ queries exactly match with the required target SPARQL translation.
 
 Error Analysis:
-1. 
+1. The major accuracy error occurs due to wrong entity mapping.
+2. There are still a lot of noisy properties in our dataset, which lead to bad translation - this can be improved by chosing a threshold over number of occurrences of each property and choosing only those which occur often in the training and testing data.
 
+This marks the end of a end-to-end system which generates dataset automatically for [NSpM](https://github.com/AKSW/NSpM) learner.
 
+With nearly two and a half week until the final deadline of GSoC tenure, we decided to try a ML experiment to test whether a machine learning model can learn compositionality. Precisely, the idea is as follows: 
+z∘b
 
 
 
