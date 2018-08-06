@@ -28,15 +28,33 @@ Training Setup and Graph Analysis:
 2. As the graph shows, we reach ~75% accuracy in just 40k epochs and the model convergence to 80% in the remaining 80k epochs. 
 3. [BLEU](https://en.wikipedia.org/wiki/BLEU) score signifies the quality of our translation. It compares our model's target language translation with the expected SPARQL for the NLQ. 80% values means that our translation's quality is 0.8 times the quality of an SPARQL expert.
 4. The test accuracy as the name suggests that around 60% of our NLQ queries exactly match with the required target SPARQL translation.
-
+z∘
 Error Analysis:
 1. The major accuracy error occurs due to wrong entity mapping.
 2. There are still a lot of noisy properties in our dataset, which lead to bad translation - this can be improved by chosing a threshold over number of occurrences of each property and choosing only those which occur often in the training and testing data.
 
 This marks the end of a end-to-end system which generates dataset automatically for [NSpM](https://github.com/AKSW/NSpM) learner.
 
-With nearly two and a half week until the final deadline of GSoC tenure, we decided to try a ML experiment to test whether a machine learning model can learn compositionality. Precisely, the idea is as follows: 
-z∘b
+With nearly two and a half week until the final deadline of GSoC tenure, we decided to try a ML experiment to test whether a machine learning model can learn compositionality. Precisely, the goal of this experiment is as follows:
+The goal is to train a model on data {'a1', …, 'an', 'b', 'a1○b', …, 'an○b', 'c','d'} and test on data {'c○d'}.
+The idea is to check whether the Neural MT model can learn how to translate composite NLQ queries into SPARQL by learning on other composite NLQ-SPARQL examples.
+
+For now, me and my mentors mutually decided to perform our experiment on a simpler setting, where 'd' is equal to 'b'.
+
+Formally setting one becomes: Train a model on data {'a1', …, 'an', 'b', 'a1○b', …, 'an○b', 'c'} and test on data {'c○b'}.
+For eg:
+Trainset:
+a1 := "what is the county of <X> ?"
+b := "where is <X> located in ?"
+a1○b := "where is the [county] of <X> located in ?"
+…
+an := "what is the region of <X> ?"
+an○b := "where is the [region] of <X> located in ?"
+c := "what is the district of <X> ?"
+
+Testset:
+c○b := "where is the district of <X> located in ?"
+
 
 
 
