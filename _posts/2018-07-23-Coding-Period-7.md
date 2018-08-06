@@ -46,18 +46,29 @@ For starters, me and my mentors mutually decided to perform our experiment on a 
 #### Setting 1: 
 
 Train a model on data {'a1', …, 'an', 'b', 'a1○b', …, 'an○b', 'c'} and test on data {'c○b'}.
-For eg:
+
+For Instance, the data would look something like this:
+
 Trainset:
+
 a1 := "what is the county of <X> ?"
+
 b := "where is <X> located in ?"
+
 a1○b := "where is the [county] of <X> located in ?"
+
 …
+
 an := "what is the region of <X> ?"
+
 an○b := "where is the [region] of <X> located in ?"
+
 c := "what is the district of <X> ?"
 
 Testset:
+
 c○b := "where is the district of <X> located in ?"
+
 
 
 
