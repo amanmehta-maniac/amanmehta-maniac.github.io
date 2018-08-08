@@ -28,7 +28,7 @@ After again a wait of 9 hours, we got ~80% BLUE accuracy for our model and this 
 2. As the graph shows, we reach ~75% accuracy in just 40k epochs and the model convergence to 80% in the remaining 80k epochs. 
 3. [BLEU](https://en.wikipedia.org/wiki/BLEU) score signifies the quality of our translation. It compares our model's target language translation with the expected SPARQL for the NLQ. 80% values means that our translation's quality is 0.8 times the quality of an SPARQL expert.
 4. The test accuracy as the name suggests that around 60% of our NLQ queries exactly match with the required target SPARQL translation.
-z∘
+
 ### Error Analysis:
 1. The major accuracy error occurs due to wrong entity mapping.
 2. There are still a lot of noisy properties in our dataset, which lead to bad translation - this can be improved by chosing a threshold over number of occurrences of each property and choosing only those which occur often in the training and testing data.
@@ -69,7 +69,7 @@ Testset:
 
 c○b := "where is the district of <X> located in ?"
 
-
+During our meeting on how to generate this dataset
 
 
 
