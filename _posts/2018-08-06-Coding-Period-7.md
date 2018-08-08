@@ -1,6 +1,4 @@
 ---
-header:
-  teaser: https://drive.google.com/file/d/12mt-qnUyewvp6NaKLkHsQMC_pT9dQB9C/view?usp=sharing
 title: "Coding Period 7 (24th July - 6th Aug)"
 comments: true
 read_time: true
@@ -69,7 +67,13 @@ Testset:
 
 c○b := "where is the district of <X> located in ?"
 
-During our meeting on how to generate this dataset
+During our meeting on how to generate this dataset, we saw that the atomic queries (both NLQ and SPARQL) can be automatically constructed using my project's tool. One thing to notice, to be able to form composite query, say(ai○b), we would have to choose only such a[i]'s which have a rdf:range as *class Place* or a subset of *class Place*. 
+
+Now consider the composite templates - SPARQL query templates for them could be easily generated (just we have to design a composite query such as : "SELECT ?a WHERE { <A> <http://dbpedia.org/ontology/county> ?b . ?b <http://dbpedia.org/ontology/location> ?a }"). 
+
+NLQ templates for composite queries become tricky. On little observation, we could devise a pattern to generate them too.
+
+During the last day of this period, I had started to write scripts to generate composite templates from our Gold Standard. 
 
 
 
