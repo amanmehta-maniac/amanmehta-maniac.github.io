@@ -4,7 +4,7 @@ comments: true
 read_time: true
 ---
 
-After completing the required scripts to fetch all the templates and testing their correctness I was ready to generate the train and test data for the composition idea.
+After completing the required scripts to fetch all the templates and testing their correctness, I was ready to generate the train and test data for the composition idea.
 
 The generation of train and test set for this experiment was a little different from the scripts I had been using. The subtle difference is that, the test set will include c○b template, which **should not** be seen in the train set. So, I had to create two annotations separately for train and test data namely - annotations_composite_train.csv, annotations_composite_test.csv, where the test.csv had only 2 composite out of 18 (so that test data ~10%). 
 
