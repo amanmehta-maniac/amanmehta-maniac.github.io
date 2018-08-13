@@ -47,7 +47,7 @@ The zig-zag pattern in the test_bleu has also disappreared in this version which
 
 This experiment marked the end of my GSoC tenure, officially. Me, Tommaso and Dr. Ricardo are hoping to continue with this research idea beyond the GSoC and hope to further closely learn about automatic compositionality learning idea.
 
-That's all from Google Summer of Project with DBpedia. It was an awesome experience to work with the DBpedia community. 
+That's all from my Google Summer of Project with DBpedia. It was an awesome experience to work with the DBpedia community. 
 
 Cheers! :)
 
